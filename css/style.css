@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.n-display {
+  display: none;
+}
+
+.header {
+  padding: 10px;
+  background-color: #eee;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+.container .render {
+  font-size: 0;
+}
+.container .render .img {
+  width: 100vw;
+}
+.container .controls {
+  padding: 10px;
+}
+.container .controls .item {
+  display: flex;
+  flex-direction: column;
+}
+.container .controls .item input[type=range] {
+  width: 100%;
+}/*# sourceMappingURL=style.css.map */

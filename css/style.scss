@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+}
+
+.n-display {
+  display: none;
+}
+
+.header {
+  padding: 10px;
+  background-color: #eee;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+
+  .render {
+    font-size: 0;
+
+    .img {
+      width: 100vw;
+    }
+  }
+
+  .controls {
+    padding: 10px;
+
+    .item {
+      display: flex;
+      flex-direction: column;
+
+      input[type="range"] {
+        width: 100%;
+      }
+    }
+  }
+}

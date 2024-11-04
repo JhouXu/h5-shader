@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shader</title>
+    <link href="./css/style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="header">
+      <input type="file" id="myfile" accept=".jpg, .jpeg, .png" />
+    </div>
+    <div class="container">
+      <div class="render">
+        <img id="imginput" class="img" src="" />
+        <img id="svgoutput" class="img" src="" />
+      </div>
+      <div class="controls">
+        <div class="item">
+          <span>Details</span>
+          <input type="range" min="0" max="100" value="50" step="1" class="slider" id="beta" />
+        </div>
+
+        <div class="item">
+          <span>Thickness</span>
+          <input type="range" min="20" max="60" value="30" step="1" class="slider" id="gamma" />
+        </div>
+
+        <div class="item">
+          <span>Brightness</span>
+          <input type="range" min="40" max="200" value="100" step="1" class="slider" id="light" />
+        </div>
+
+        <div class="item">
+          <span>Clean</span>
+          <input type="range" min="0" max="100" value="0" step="1" class="slider" id="clean" />
+        </div>
+      </div>
+    </div>
+
+    <div class="n-display">
+      <input type="button" id="beta" value="beta" />
+      <input type="button" id="browsebtn" value="browsebtn" />
+      <canvas id="canvas1" class="canvas-render"></canvas>
+      <canvas id="canvas2" class="canvas-render"></canvas>
+      <canvas id="canvas_viewer" class="canvas-render"></canvas>
+    </div>
+
+    <!-- <script src="https://docs.opencv.org/4.x/opencv.js" type="text/javascript"></script> -->
+    <script defer src="./lib/jquery-3.7.1.min.js"></script>
+    <script defer src="./utils/potrace.js"></script>
+    <script defer src="./utils/potrace.js"></script>
+    <script defer src="./js/main.js"></script>
+  </body>
+</html>
