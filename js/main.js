@@ -1,8 +1,11 @@
+<<<<<<< HEAD
 import { Shaders } from "../utils/shader.js";
 import { EcognitaWeb3D as Ecognita } from "../utils/ecognita.js";
 
 console.log(Ecognita);
 
+=======
+>>>>>>> parent of d1c1f0e (fix 路径调整)
 let shaderUrl = "../assets/shader.json";
 
 var __extends =
