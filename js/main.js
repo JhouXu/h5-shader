@@ -1,4 +1,4 @@
-let shaderUrl = "./../assets/shader.json";
+let shaderUrl = "https://jhouxu.github.io/h5-shader/assets/shader.json";
 
 var __extends =
     (this && this.__extends) ||
