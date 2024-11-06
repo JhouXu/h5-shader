@@ -2351,10 +2351,8 @@ var viewer = document.getElementById("canvas_viewer");
 (viewer.width = 1024),
   (viewer.height = 1024),
   $.getJSON(shaderUrl, function (all_data) {
-    // var filterViewer;
-    // $("#browsebtn").attr("disabled", !1),
-    console.dir(EcognitaWeb3D);
-    new EcognitaWeb3D.FilterViewer(viewer).initialize(all_data);
+    var filterViewer;
+    $("#browsebtn").attr("disabled", !1), new EcognitaWeb3D.FilterViewer(viewer).initialize(all_data);
   });
 var _0x48ac = [
     "length",
